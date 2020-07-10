@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<div class="container">
+  <div class="section">
+    <div class="content">
+      <h1>{{ .Title }}</h1>
+      <p>Categories: {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+      <a href="{{.Permalink}}">{{.Title}}</a> | 
+      {{end}}</p>
+      {{ range .Pages.ByPublishDate.Reverse }}
+
+        <div id="list-blog" class="columns is-vcentered is-tablet is-centered">
+            <div class="column is-centered is-4">
+              <a href="{{ .RelPermalink }}"><img src="{{ .Page.Params.image }}"></a>
+            </div>
+            <div class="column">
+                <h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
+                <p>{{ .Page.Params.excerpt }}</p>
+            </div>
+      
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</div>
+
+{{ end }}

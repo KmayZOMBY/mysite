@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div class="columns my-6 is-mobile is-vcentered">
+      <div class="column">
+        <h1>{{ .Site.Title }}</h1>
+        <p class="font-125">{{ .Site.Params.homeText | markdownify }}</p>
+      </div>
+      <div class="column">
+        <img src="/images/hidrex-man.jpg" alt="" class="img-fluid"/>
+      </div>
+    </div>
+</div>
+
+<div class="columns my-6 is-mobile has-text-centered" style="margin: 2rem 0rem;">
+    <div class="column"><img src="images/sweat.svg" alt="" width="30%"><p>About Sweat</p></div>
+    <div class="column"><img src="images/bath.svg" alt="" width="30%"><p>About Body Odour</p></div>
+    <div class="column"><img src="images/deodorant.svg" alt="" width="30%"><p>Daily Alternatives</p></div>
+</div>
+
+
+{{ end }}
