@@ -1,3 +1,6 @@
-<div class="container" style="background-color: grey; height: 200px;">
+<div class="container is-fullhd" style="background-color: grey; height: 200px;">
     <h5>HELLO!!!</h5>
+    <p>Categories: {{ ($.Site.GetPage "taxonomyTerm" "categories") }}
+        <a href="{{.Permalink}}">{{.Title}}</a> | 
+        </p>
 </div>

@@ -14,6 +14,17 @@ h1 {
     font-weight: 700;
 }
 
+ul li::before {
+    content: "\2022";
+    margin-right: 5px;
+}
+
+
+#sidebar {
+    background-color: #e8e8e8;
+    padding: 20px;
+}
+
 #nav-border {
     position: fixed;
     top: 0; /* Position the navbar at the top of the page */
@@ -21,7 +32,6 @@ h1 {
     padding: 1rem;
     margin-bottom: 2rem;
     background-color: white;
-    border-bottom: 1px solid #0C71C3;
 }
 
 #list-blog {
