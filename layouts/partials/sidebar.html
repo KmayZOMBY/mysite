@@ -1,6 +1,17 @@
-<div class="container is-fullhd" style="background-color: grey; height: 200px;">
-    <h5>HELLO!!!</h5>
-    <p>Categories: {{ ($.Site.GetPage "taxonomyTerm" "categories") }}
-        <a href="{{.Permalink}}">{{.Title}}</a> | 
-        </p>
-</div>
+<div id="sidebar">
+    
+    <p>Categories: {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+    <ul><li><a href="{{.Permalink}}">{{.Title}}</a></li></ul>
+    </p>{{end}}
+    
+    <p><a href="/categories/general/">General</a></p>
+    <p><a href="/categories/general/">General</a></p>
+        
+    <hr>
+
+    <p>View also:</p>
+    <p><a href="/tips">Tips</a></p>
+    <p><a href="#">Daily care</a></p>
+    <p><a href="#">Iontophoresis</a></p>
+
+        </div>

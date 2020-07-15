@@ -1,0 +1,13 @@
+<div id="list-blog" class="columns is-vcentered is-tablet is-centered">
+    <div class="column is-centered is-4">
+      <a href="{{ .RelPermalink }}"><img src="{{ .Page.Params.image }}"></a>
+    </div>
+    <div class="column">
+        <h5><a href="{{ .RelPermalink }}">{{ .Page.Params.Title }}</a></h5>
+        {{ partial "colortags" . }}
+       {{ with .Page.Params.categories }}<a href="/categories/{{lower . }}">{{ . }}</a>
+       {{end}}
+        <p>{{ .Page.Params.excerpt }}</p>
+    </div>
+
+</div>

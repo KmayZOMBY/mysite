@@ -1,0 +1,30 @@
+{{ $previous_label := "Next" }}
+{{ $next_label := "Previous" }}
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+
+<div class="container">
+  <div class="row">
+    <div class="col"> 
+      {{ if $pag.HasPrev }}
+        <a href="{{ $pag.Prev.URL }}" class="previous pa2 db fw6" aria-label="Previous">&larr; {{ $previous_label }}</a>
+      {{ else }}
+        <span class="previous pa2 db fw6">&larr; {{ $previous_label }}</span>
+      {{ end }}
+    </div>
+
+    <div class="col">
+      <span class="page_number fw6 f7 ttu tracked">{{ $pag.PageNumber }} of {{ $pag.TotalPages }}</span>
+    </div>
+
+    <div class="col">
+      {{ if $pag.HasNext }}
+      <a href="{{ $pag.Next.URL }}" class="next pa2 db fw6" aria-label="Next">{{ $next_label }} &rarr;</a>
+    {{ else }}
+      <span class="next pa2 db fw6">{{ $next_label }} &rarr;</span>
+    {{ end }}
+    </div>
+  </div>
+
+</div>
+{{ end }}

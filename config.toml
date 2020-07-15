@@ -1,7 +1,7 @@
 baseURL= "/"
 languageCode= "en-us"
 title= "Hyperhidrosis Encyclopedia"
-paginate = 6
+paginate = 5
 
 [permalinks]
   blog = "/:filename/"

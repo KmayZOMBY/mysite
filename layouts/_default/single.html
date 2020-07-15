@@ -1,10 +1,11 @@
 {{ define "main" }}
-<section class="section">
+<section>
 <div id="backto">
 <a href="/posts"><em>← back to blog</em></a>
 </div>
 
-<div id="blog-content" class="content">
+<div class="container w-75">
+<div class="content">
     <h1>{{ .Title }}</h1>
     <em>{{ .Page.Date.Format "2 January 2006" }} {{ with .Page.Params.categories }} in <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</a></em>
 
@@ -21,6 +22,7 @@
     
 
     <h3 id="thankyou">Thank you for reading.</h3>
+</div>
 </div>
 </section>
 {{ end }}
