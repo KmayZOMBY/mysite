@@ -28,6 +28,7 @@ You can view a video from the Embarrassing Bodies series on Channel 4 Television
 We considered dropping facial treatment options entirely. However, we felt that as it’s such a distressing area of the body to suffer Hyperhidrosis, we had to continue to offer support for our customers.
 
 #### Upgraded and re-designed
+
 The new Facial Hyperhidrosis Mask:
 
 This completely re-designed facial mask now has a pliable silicon based electrode that covers the entire facial area. The electrode will fit and form to the face and offer current directly into the most commonly affected areas of the face.
@@ -36,7 +37,7 @@ The new mask is a complete upgrade. It has taken a couple of years to develop an
 
 In addition, it also a one connection electrode. The face mask it attached to existing Hidrex cables and the patient uses their existing hand. foot or underarm electrode to close the circuit. This makes set up a much easier proposition and gives the user time to adjust settings.
 
-\[IMAGE HERE!\]
+![Hidrex Face mask](/uploads/facemask-2.png)
 
 ## How to use the facial mask
 
