@@ -25,6 +25,17 @@ hr {
     margin: 15px 0px;
 }
 
+#main-section {
+    background-size: cover;
+   background-image:
+   linear-gradient(
+    rgba(255, 255, 255, 0.45), 
+    rgba(255, 255, 255, 0.65)
+  ),
+  url('/images/back-main-sectionv2.png');
+  padding: 40px;
+}
+
 #sidebar {
     background-color: #e8e8e8;
     padding: 20px;

@@ -1,16 +1,30 @@
 {{ define "main" }}
 
-<div class="columns my-6 is-mobile is-vcentered">
-
+<div class="columns is-mobile is-vcentered">
       <div class="column">
-        <h1>{{ .Site.Title }}</h1>
-        <p class="font-125">{{ .Site.Params.homeText | markdownify }}</p>
       </div>
       <div class="column">
-        <img src="/images/hidrex-man.jpg" alt="" class="img-fluid w-75"/>
       </div>
     </div>
 </div>
+
+<div id="main-section" class="is-vcentered is-centered py-6">
+
+  <div class="columns is-gapless is-desktop is-vcentered has-text-centered is-flex">
+
+    <div class="column">
+      <h1 class="is-size-1-fullhd is-size-2-desktop is-size-4-touch px-6">{{ .Title }}</h1>
+      <p class="font-size: 2vw;">{{ .Site.Params.homeText | markdownify }}</p>
+    </div>
+
+    <div class="column w-25">
+      <img src="/images/hidrex-man.jpg" alt="" class="img-fluid w-50"/>
+    </div>
+
+  </div>
+
+</div>
+
 
 
 <div class="columns my-6 is-mobile has-text-centered" style="margin: 2rem 0rem;">
