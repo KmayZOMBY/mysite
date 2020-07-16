@@ -12,10 +12,11 @@
       <div class="col mr-2 h-50">
         <div class="content">
           <h1>{{ .Title }}</h1>
-          <div class="container is-hidden-tablet">
+          <div class="container is-hidden-tablet" style="background-color: #e8e8e8; padding:10px">
           <p>Categories: {{range ($.Site.GetPage "categories").Pages }}
           <a href="{{.Permalink}}">{{.Title}}</a> |
             {{end}}</p>
+          <img src="/images/Ads/SweatFree_Iontocentre_ADS_320x100px.jpg" alt="" class="img-fluid">
           </div>
 
           {{ $paginator := .Paginate (where .Pages "Type" "posts") }}
