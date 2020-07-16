@@ -13,7 +13,7 @@
         <div class="content">
           <h1>{{ .Title }}</h1>
           <div class="container is-hidden-tablet">
-          <p>Categories: {{range ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+          <p>Categories: {{range ($.Site.GetPage "categories").Pages }}
           <a href="{{.Permalink}}">{{.Title}}</a> |
             {{end}}</p>
           </div>

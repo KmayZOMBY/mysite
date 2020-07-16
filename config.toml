@@ -1,4 +1,4 @@
-baseURL= "https://kmayzomby.github.io/mysite/"
+baseURL= "/"
 languageCode= "en-us"
 title= "Hyperhidrosis Encyclopedia"
 paginate = 5
