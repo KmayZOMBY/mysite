@@ -2,7 +2,7 @@
 title: "Iontophoresis Treatments – Troubleshooting"
 excerpt: "Hidrex iontophoresis machines are fitted with multiple protective circuits and safety systems designed to automatically protect the patient and optimise results and ensure an end to excessive sweating."
 date: 2019-02-12
-categories: Tips
+category: ["Tips"]
 image: "/images/woman-intray.jpg"
 draft: false
 ---

@@ -3,7 +3,7 @@ title: Treating Facial Hyperhidrosis with Iontophoresis
 excerpt: Facial sweating is probably the most distressing area of the body to suffer
   from Hyperhidrosis.
 date: 2019-04-12
-categories: General
+category: ["General"]
 image: "/images/facial-treamt.jpg"
 
 ---

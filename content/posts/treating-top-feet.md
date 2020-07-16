@@ -2,7 +2,7 @@
 title: "Is treating sweating on tops of feet possible?"
 excerpt: "Treating excessive sweating on tops of feet can be possible with the right equipment and treatment."
 date: 2019-06-12
-categories: General
+category: ["General"]
 image: "/images/woman-intray.jpg"
 draft: false
 ---

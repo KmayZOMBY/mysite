@@ -1,5 +1,5 @@
 +++
-categories = "Tips"
+category = ["Tips"]
 date = 2020-07-15T23:00:00Z
 excerpt = "Discolouration of the electrodes is perfectly normal and typically only a cosmetic issue."
 image = "/uploads/blog-discolorationelectrodes-830x660px.jpg"

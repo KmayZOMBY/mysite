@@ -2,7 +2,7 @@
 title: "Iontophoresis Profile Changes"
 excerpt: "If you own a new model Hidrex machine and wonder about user profile, read our guide & suggestions."
 date: 2019-05-12
-categories: General
+category: ["General"]
 image: "/images/woman-intray.jpg"
 draft: false
 ---

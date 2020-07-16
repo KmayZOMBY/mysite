@@ -1,0 +1,9 @@
+{{ range $tag := .Params.category }}
+{{ if eq $tag "General" }}
+  <a href="/category/{{lower $tag }}"><span class="tag" style="background-color: #025081; color:white;">{{ $tag }}</span></a>
+{{ else if eq $tag "Tips" }}
+<a href="/category/{{lower $tag }}"><span class="tag" style="background-color: green; color:white;">{{ $tag }}</span></a>
+{{ else }}
+<a href="/category/{{lower $tag }}"><span class="tag" style="background-color: #000000; color:white;">{{ $tag }}</span></a> 
+{{ end }}
+{{ end }}

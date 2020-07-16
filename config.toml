@@ -10,9 +10,11 @@ paginate = 10
   dateFormat = "Jan 2, 2006"
   homeText = "Find relevant information about Hyperhidrosis, Body Odour and general sweat disorder"
   image = ":filename"
+  General = "blue" # Edit color in colortag.html
+  Tips = "green" # Edit color in colortag.html
 
 [taxonomies]
-  categories = "categories"
+  category = "category"
 
 [menu]
   [[menu.main]]

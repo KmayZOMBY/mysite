@@ -2,7 +2,7 @@
 title: "Direct, pulsed and variable pulsed current iontophoresis machines"
 excerpt: "Variable Pulsed current is a Hidrex design patent – no other models or manufacturers can offer this advanced feature."
 date: 2019-03-12
-categories: General
+category: ["General"]
 image: "/images/direct.jpg"
 draft: false
 ---

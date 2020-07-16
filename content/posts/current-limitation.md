@@ -2,7 +2,7 @@
 title: "Current Limitation – Iontophoresis safety features"
 excerpt: "For your safety, the device permanently monitors the maximum permitted treatment parameters. The control panel is looking for upper and lower levels of resistance in the circuit."
 date: 2019-01-12
-categories: General
+category: ["General"]
 image: "/images/BLOGdirect-pulsed-variable-830x660px.jpg"
 draft: false
 ---

@@ -7,7 +7,7 @@
 <div class="container w-75">
 <div class="content">
     <h1>{{ .Title }}</h1>
-    <em>{{ .Page.Date.Format "2 January 2006" }} {{ with .Page.Params.categories }} in <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}</a></em>
+    <em>{{ .Page.Date.Format "2 January 2006" }}</em> - {{ partial "colortags.html" . }}
 
     <div class="row text-center" style="margin: 2rem 0rem;">
     {{ with .Page.Params.image }}
