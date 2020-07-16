@@ -50,9 +50,14 @@ hr {
     background-color: white;
 }
 
+#list-title {
+    margin-bottom: 5px;
+}
+
 #list-blog {
+    max-height: 40%;
     margin-top: 1rem;
-    padding: 1vw;
+    padding: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
