@@ -13,8 +13,9 @@ fields:
   name: date
   label: date
   default: now
-- type: text
-  name: categories
+- name: categories
+  type: tag_list
+  default: []
   label: categories
 - type: file
   name: image
